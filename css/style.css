@@ -85,3 +85,38 @@ nav{
     text-align: center;
     vertical-align: top;   
 }
+#labelviola{
+    background-color: lightpink;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top; 
+}
+#labelverde1{
+    background-color: rgb(113, 218, 52);
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+#abelarancio{
+    background-color: orange;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+#labelrosa{
+    background-color: orchid;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+#labelverde2{
+    background-color: green;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
