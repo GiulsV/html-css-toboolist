@@ -1,0 +1,35 @@
+/* Header con logo */
+  h1 {
+    display: inline;
+    line-height: 100px;
+  }
+  #logo{
+      line-height: 100px;
+      display: inline;
+  }
+
+  /* Main */
+  main{
+      background-color: lightgray;
+      height: 800px;
+  }
+
+    .container{
+        background-color: white;
+        width: 70%;
+        height: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .button1{
+        background-color: lightskyblue;
+        border-radius: 4px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
