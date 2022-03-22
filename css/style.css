@@ -11,7 +11,9 @@ h1 {
   /* Main */
 main{
     background-color: lightgray;
-    height: 800px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
  }
 /* div contenitore */
 .container{
@@ -19,6 +21,8 @@ main{
     width: 70%;
     height: 90%;
     margin: auto;
+    border: 2px solid;
+    padding-top: 5px;
     border-radius: 10px;
 }
 /* Navigazione pulsanti */
@@ -31,7 +35,7 @@ main{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
      margin: 4px 2px;  
 }
 .button2{
@@ -43,7 +47,7 @@ main{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
     margin: 4px 2px;    
 }
 .pulsanti{
@@ -55,4 +59,29 @@ nav{
 /* Elementi To do */
 .todo{
     margin-left: 5%;
+}
+#check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin: 4px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+#null{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 4px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+#labelblu{
+    background-color: lightblue;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;   
 }
