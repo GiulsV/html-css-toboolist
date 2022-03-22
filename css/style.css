@@ -1,3 +1,7 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Header con logo */
 h1 {
     display: inline;
@@ -6,117 +10,160 @@ h1 {
 #logo{
     line-height: 100px;
     display: inline;
+    margin-left: 5%;
 }
 
-  /* Main */
+/* Main */
 main{
-    background-color: lightgray;
-    height: auto;
+    background-color: rgb(240, 240, 240);
+    height:auto;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
  }
+
 /* div contenitore */
 .container{
     background-color: white;
     width: 70%;
     height: 90%;
     margin: auto;
-    border: 2px solid;
     padding-top: 5px;
+    padding-bottom: 8px;
     border-radius: 10px;
 }
+
 /* Navigazione pulsanti */
 .button1{
-    background-color: lightblue;
+    background-color: rgb(36, 160, 237);
+    font-weight: bold;
     border: none;
-    border-radius: 4px;
+    border-radius: 7px;
     color: white;
     padding: 8px 20px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 12px;
-     margin: 4px 2px;  
+    margin: 4px 2px; 
+    cursor: pointer; 
 }
 .button2{
     background-color: white;
-    border: 1px solid;
-    border-radius: 4px;
-    color: lightgray;
-    padding: 8px 20px;
+    border: 1px solid rgb(214, 213, 210);
+    border-radius: 7px;
+    color: rgb(214, 213, 210);
+    font-weight: bold;
+    padding: 8px 15px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px;    
+    margin: 4px 2px;
+    cursor: pointer;    
 }
 .pulsanti{
     margin-left: 5%;
+    height: 45px;
+    padding-top: 5px;
 }
 nav{
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid rgb(240, 240, 240);
 }
+
 /* Elementi To do */
 .todo{
     margin-left: 5%;
 }
-#check{
+
+ /* simboli */
+.check{
+    height: 20px;
+    width: 20px;
     color: green;
+    border-radius: 50%;
+    display: inline-block;
     border: 1px solid green;
-    border-radius: 50%;
-    margin: 4px;
     text-align: center;
-    height: 30px;
-    width: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    
 }
-#null{
+.null{
+    height: 20px;
+    width: 20px;
     color: red;
-    border: 1px solid red;
     border-radius: 50%;
-    margin: 4px;
+    display: inline-block;
+    border: 1px solid red;
     text-align: center;
-    height: 30px;
-    width: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
 }
-#labelblu{
-    background-color: lightblue;
-    border-radius: 6px;
-    padding: 5px;
-    text-align: center;
-    vertical-align: top;   
-}
-#labelviola{
-    background-color: lightpink;
-    border-radius: 6px;
-    padding: 5px;
-    text-align: center;
-    vertical-align: top; 
-}
-#labelverde1{
-    background-color: rgb(113, 218, 52);
-    border-radius: 6px;
-    padding: 5px;
+
+/* etichette */
+.labelblu{
+    background-color: rgb(36, 160, 230);
+    border-radius: 20px;
     text-align: center;
     vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
 }
-#abelarancio{
-    background-color: orange;
-    border-radius: 6px;
-    padding: 5px;
+.labelviola{
+    background-color: rgb(158, 71, 240);
+    border-radius: 20px;
     text-align: center;
     vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer; 
 }
-#labelrosa{
-    background-color: orchid;
-    border-radius: 6px;
-    padding: 5px;
+.labelverde1{
+    background-color: rgb(17, 165, 121);
+    border-radius: 20px;
     text-align: center;
     vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer; 
 }
-#labelverde2{
-    background-color: green;
-    border-radius: 6px;
-    padding: 5px;
+.labelarancio{
+    background-color: rgb(228, 161, 36);
+    border-radius: 20px;
     text-align: center;
     vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.labelrosa{
+    background-color: rgb(190, 87, 136);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.labelverde2{
+    background-color: rgb(126, 194, 47);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
 }
