@@ -33,7 +33,7 @@ main{
 }
 
 /* Navigazione pulsanti */
-.button1{
+.bluBtn{
     background-color: rgb(36, 160, 237);
     font-weight: bold;
     border: none;
@@ -46,7 +46,7 @@ main{
     margin: 4px 2px; 
     cursor: pointer; 
 }
-.button2{
+.whiteBtn{
     background-color: white;
     border: 1px solid rgb(214, 213, 210);
     border-radius: 7px;
